@@ -1,0 +1,53 @@
+.simple{
+    background-color: tomato;
+    padding:10px;
+    margin-bottom: 5px;
+}
+.simple h1{
+    color:white;
+    text-align: center;
+
+}
+
+
+.gitt{
+    background-color: darkblue;
+    color:white;
+    padding:10px;
+}
+.gitt h1{
+    text-align: center;
+    color:red;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.gitt ul{
+    list-style-type: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#container{
+    color:white;
+    border:2px solid red;
+    margin:50px 100px 50px 100px;
+    padding:10px;
+    display:flex;
+}
+#container .card{
+    width:300px;
+    border:2px solid green;
+    margin:5px;
+}
+#container> .card > .image > img{
+    width:100%;
+}
+#container> .card> .des{
+    text-align: center;
+    background-color: white;
+    color:red;
+    font-family: 'Courier New', Courier, monospace;
+
+}
